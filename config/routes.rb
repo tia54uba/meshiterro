@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :post_images, only: [:new, :create, :index, :show]
+  resources :post_images, only: [:new, :create, :index, :show, :destroy]
   #get 'post_image/new'
   #get 'post_image/index'
   #get 'post_image/show'
